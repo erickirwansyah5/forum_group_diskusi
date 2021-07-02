@@ -1,0 +1,165 @@
+	body,html{
+			height: 100%;
+			margin: 0;
+			background: #7F7FD5;
+	        background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	        background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+		}
+
+		.card{
+			height: 650px;
+			border-radius: 15px !important;
+			background-color: rgba(0,0,0,0.4) !important;
+		}
+	
+		.msg_card_body::-webkit-scrollbar-thumb{
+			border-radius: 5px;
+			background-color: aqua;
+		}
+		.msg_card_body{
+			overflow-y: scroll;
+		}
+		.card-header{
+			border-radius: 15px 15px 0 0 !important;
+			border-bottom: 0 !important;
+		}
+		.msg_card_body::-webkit-scrollbar{
+			width: 10px;
+		}
+		.msg_card_body::-webkit-scrollbar-track{
+			border-radius: 5px;
+			box-shadow: inset 0 10px rgba(0,0,0,0.25);
+		}
+		.msg_card_body::-webkit-scrollbar-thumb{
+			border-radius: 5px;
+			background-color: aqua;
+		}
+	
+	 .card-footer{
+	     	border-radius: 0 0 15px 15px !important;
+			border-top: 0 !important;
+	}
+		
+	.group_info{
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 15px;
+	}
+	.group_info span{
+		font-size: 20px;
+		color: white;
+	}
+	.group_info p{
+	font-size: 10px;
+	color: rgba(255,255,255,0.6);
+	}
+	
+	.video_cam{
+		margin-left: 50px;
+		margin-top: 5px;
+	}
+	.video_cam span{
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+	
+	@media(max-width: 576px){
+	.msg_card_body{
+		margin-bottom: 15px !important;
+	}
+	.contacts_card{
+		margin-bottom: 15px !important;
+	}
+	.cipher_card{
+		margin-top: 15px !important;
+	}
+	}
+	@media(max-width: 480px) {
+		.msg_card_body{
+			height: auto;
+			width: auto;
+		}
+		
+	}
+	
+	.msg_cotainer_{
+			margin-top: auto;
+			min-width: 76px;
+			margin-bottom: auto;
+			margin-left: 10px;
+			border-radius: 25px;
+			background-color: #82ccdd;
+			padding: 10px;
+			position: relative;
+		}
+	.msg_container_{
+		margin-top: auto;
+		min-width: 73px;
+		margin-bottom: auto;
+		margin-left: 10px;
+		border-radius: 25px;
+		background-color: #82ccdd;
+		padding: 10px;
+		position: relative;
+	}
+	.msg_cotainer_send{
+		margin-top: auto;
+		min-width:73px;
+		margin-bottom: auto;
+		margin-right: 10px;
+		border-radius: 25px;
+		background-color: #78e08f;
+		padding: 10px;
+		position: relative;
+	}
+	.msg_time_{
+		position: absolute;
+		left: 0;
+		bottom: -15px;
+		width: 100%;
+		color: rgba(255,255,255,0.5);
+		font-size: 10px;
+		min-width:50px;
+	}
+	.msg_time_send{
+		position: absolute;
+		right:-20px;
+		bottom: -15px;
+		width: 100%;
+		color: rgba(255,255,255,0.5);
+		font-size: 10px;
+		min-width:70px;
+	}
+	.msg_time2_{
+		position: absolute;
+		left: 0;
+		bottom: -15px;
+		color: #000;
+		font-size: 10px;
+	}
+	.name_send{
+	text-align: right;
+	font-weight: bold;
+	 color: #78e08f;
+	 display: block;
+	 margin-bottom: 6px
+	}
+	.name_rec{
+	 font-weight: bold;
+	 color: #82ccdd;
+	 display: block;
+	 margin-bottom: 6px
+	}
+	.img_cont{
+	  position: relative;
+	  height: 70px;
+	  width: 70px;
+		}
+	.user_img{
+		height: 70px;
+		width: 70px;
+		border:1.5px solid #f5f6fa;
+			
+		}
